@@ -9,4 +9,8 @@ class Pirate
     @weight = params[weight]
     @height = params[height]
   end
+  
+  def self.clear
+    @@all.clear
+  end
 end
