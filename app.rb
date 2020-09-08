@@ -21,10 +21,8 @@ module FormsLab
      end
      
      @ships = Ship.all
+     
+     erb :pirate
        
        
     end
-      
-
-  end
-end
