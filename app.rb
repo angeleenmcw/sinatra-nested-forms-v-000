@@ -14,7 +14,7 @@ module FormsLab
     
     post '/pirates' do
       
-     @pirates
+     @pirate = Pirate.new
     end
       
 
