@@ -22,5 +22,4 @@ require './environment'
       erb :'pirates/show'
     end
 
-  end
 end
