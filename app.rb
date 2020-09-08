@@ -18,6 +18,9 @@ module FormsLab
      
      params[:pirate][:ships].each do |attributes|
        Ship.new(attributes)
+     end
+     
+     @Ship
        
        
     end
