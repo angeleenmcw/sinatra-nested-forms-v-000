@@ -7,6 +7,10 @@ module FormsLab
       erb :new 
     end
     
+    get '/pirates/new' do
+    
+    
+    
     post '/pirates' do
       
       erb :show 
