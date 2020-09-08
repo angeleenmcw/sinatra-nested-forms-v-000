@@ -1,5 +1,4 @@
 require './environment'
-
 module FormsLab
   class App < Sinatra::Base
 
@@ -22,5 +21,6 @@ module FormsLab
 
       erb :'pirates/show'
     end
+
   end
 end
